@@ -1,0 +1,23 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$cream: #ffffe1;
+$ligth-gray: #dddddd;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 24px;
+}
+
+.conversation {
+  border-left: $ligth-gray solid 5px;
+  padding-left: 15px;
+}
+
+#answer {
+  background-color: $cream;
+}
+
+#backlink {
+  text-decoration: none;
+}
